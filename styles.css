@@ -231,7 +231,7 @@ body {
   font-family: 'Be Vietnam Pro', sans-serif;
   position: relative;
   overflow-x: hidden;
-  background: url("../manage-landing-page/images/bg-tablet-pattern.svg") no-repeat 70px -100px, url("../manage-landing-page/images/bg-tablet-pattern.svg") no-repeat 200px 500px;
+  background: url("/images/bg-tablet-pattern.svg") no-repeat 70px -100px, url("../manage-landing-page/images/bg-tablet-pattern.svg") no-repeat 200px 500px;
   background-size: 400px;
 }
 
@@ -288,7 +288,8 @@ h1 {
 }
 
 .hero {
-      grid-template-areas: 'image' 'text';
+      grid-template-areas: 'image'
+ 'text';
   justify-items: center;
   margin-top: 7rem;
   text-align: center;
@@ -563,7 +564,8 @@ h1 {
 }
 
 .footer .container .logo-social-icons {
-      grid-template-areas: 'social-icons' 'footer-logo';
+      grid-template-areas: 'social-icons'
+ 'footer-logo';
   justify-items: center;
 }
 
@@ -601,7 +603,8 @@ h1 {
 
 @media (min-width: 756px) {
   .footer .container {
-        grid-template-areas: 'logo-social-icons footer-links' 'input copyright';
+        grid-template-areas: 'logo-social-icons footer-links'
+ 'input copyright';
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
@@ -623,7 +626,8 @@ h1 {
             justify-content: space-between;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas: 'logo-social-icons footer-links input' 'logo-social-icons footer-links copyright';
+        grid-template-areas: 'logo-social-icons footer-links input'
+ 'logo-social-icons footer-links copyright';
   }
   .footer .container .updates-input {
     -ms-grid-row: 1;
@@ -642,7 +646,8 @@ h1 {
     -ms-grid-row-span: 2;
     -ms-grid-column: 1;
     grid-area: logo-social-icons;
-        grid-template-areas: 'footer-logo' 'social-icons';
+        grid-template-areas: 'footer-logo'
+ 'social-icons';
     height: 100%;
   }
   .footer .container .logo-social-icons .social-icons {
